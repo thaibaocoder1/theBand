@@ -1,0 +1,109 @@
+@media screen and (max-width: 1023px) {
+    #content .content-section {
+        max-width: 100%;
+    }
+    .tickets-box-btn {
+        padding: 15px 16px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+        border: 1px solid #ccc;
+        width: 100%;
+    }
+    .socials-list {
+        font-size: 30px;
+    }
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+    .contact-info {
+        line-height: 2.4;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #header {
+        overflow: hidden;
+    }
+    #header #nav {
+        display: block;
+        width: 100%;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 2px 24px;
+    }
+    #header .menu-btn {
+        display: block;
+    }
+    #header #nav > li:first-child {
+        display: inline-block;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 5;
+    }
+    #header .menu-btn {
+        float: right;
+        padding: 0 21px;
+        cursor: pointer;
+        transition: height 0.2s linear;
+    }
+    #header .menu-btn:hover {
+        background-color: #ccc;
+    } 
+    #header .menu-btn:hover .menu-icon {
+        color: #000;
+    }
+    #header .menu-icon {
+        line-height: 46px;
+        color: #fff;
+        font-size: 20px;
+    }
+    #slider .slider-content {
+        display: none;
+    }
+    #content .about-members {
+        margin-top: 3rem;
+        width: 100%;
+    }
+    #content .about-members--image {
+        width: 60%;
+    }
+    #content .tickets-box-item {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    #content .contact-info {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .s-col-full {
+        width: 100%;
+    }
+    .form-submit-btn {
+        margin: 16px 0;
+    }
+    .s-mt-8 {
+        margin-top: 8px!important;
+    }
+    #content .tickets-box-btn {
+        width: 100%;
+    }
+}
